@@ -28,7 +28,6 @@ Detestion System) dostêpnym w j±drze Linuksa z ³at± lids.
 %setup -q
 
 %build
-
 # Ehhh...
 mv example/example/* example
 mv doc/doc/doc/doc/* doc
@@ -41,14 +40,16 @@ mv doc/doc/doc/doc/* doc
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING CREDITS ChangeLog INSTALL NEWS README doc/FAQ
+%doc AUTHORS CREDITS ChangeLog NEWS README doc/FAQ
 %attr(755,root,root) %{_sbindir}/*
 %{_mandir}/man8/*
 %attr(700,root,root) %dir %{_sysconfdir}/lids
