@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.lids.org/download/%{name}-%{version}.tar.gz
+# Source0-md5:	9510dbdfbff718d88bf556b678a2ad3b
 URL:		http://www.lids.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
