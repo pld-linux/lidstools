@@ -10,7 +10,7 @@ URL:		http://www.lids.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glibc-static
-Obsoletes:	lidsasm
+Obsoletes:	lidsadm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
