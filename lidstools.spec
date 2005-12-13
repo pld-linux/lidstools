@@ -53,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_sbindir}/*
 %{_mandir}/man8/*
 %attr(700,root,root) %dir %{_sysconfdir}/lids
-%attr(600,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/lids/*
+%attr(600,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/lids/*
