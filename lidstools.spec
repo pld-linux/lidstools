@@ -1,5 +1,5 @@
 Summary:	LIDS administration utility
-Summary(pl):	Narzêdzie do administrowania LIDS
+Summary(pl.UTF-8):   NarzÄ™dzie do administrowania LIDS
 Name:		lidstools
 Version:	0.4
 Release:	1
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 lidsadm is a utility to administer the Linux Intrusion Detection
 System offered by the Linux kernel with lids patch.
 
-%description -l pl
-lidsadm to narzêdzie do administrowania LIDS (Linux Intrusion
-Detestion System) dostêpnym w j±drze Linuksa z ³at± lids.
+%description -l pl.UTF-8
+lidsadm to narzÄ™dzie do administrowania LIDS (Linux Intrusion
+Detestion System) dostÄ™pnym w jÄ…drze Linuksa z Å‚atÄ… lids.
 
 %prep
 %setup -q
