@@ -1,5 +1,5 @@
 Summary:	LIDS administration utility
-Summary(pl.UTF-8):   Narzędzie do administrowania LIDS
+Summary(pl.UTF-8):	Narzędzie do administrowania LIDS
 Name:		lidstools
 Version:	0.4
 Release:	1
